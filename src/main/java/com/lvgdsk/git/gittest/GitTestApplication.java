@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GitTestApplication {
 
     public static void main(String[] args) {
-        System.out.println("start app");
+        System.out.println("run application");
         SpringApplication.run(GitTestApplication.class, args);
     }
 
