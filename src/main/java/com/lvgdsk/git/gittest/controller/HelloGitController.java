@@ -10,4 +10,9 @@ public class HelloGitController {
     public String say(){
         return "hello git";
     }
+
+    @GetMapping("play")
+    public String play(){
+        return "i am play basketball";
+    }
 }
