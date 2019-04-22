@@ -8,7 +8,7 @@ public class HelloGitController {
 
     @GetMapping("hello")
     public String say(){
-        return "hello git,how is you?";
+        return "hello git,how old you are?";
     }
 
     @GetMapping("eat")
