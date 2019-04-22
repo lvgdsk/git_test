@@ -13,11 +13,11 @@ public class HelloGitController {
 
     @GetMapping("eat")
     public String eat(){
-        return "eat water1";
+        return "eat water bb";
     }
 
     @GetMapping("play")
     public String play(){
-        return "i am play badminton2";
+        return "i am play badminton bb";
     }
 }
