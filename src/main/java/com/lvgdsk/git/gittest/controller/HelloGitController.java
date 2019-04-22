@@ -15,4 +15,9 @@ public class HelloGitController {
     public String eat(){
         return "eat something";
     }
+
+    @GetMapping("play")
+    public String play(){
+        return "i am play basketball";
+    }
 }
