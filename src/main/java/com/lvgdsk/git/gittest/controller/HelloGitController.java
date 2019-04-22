@@ -8,12 +8,12 @@ public class HelloGitController {
 
     @GetMapping("hello")
     public String say(){
-        return "hello git,how is you?";
+        return "hello git,how useful you are!";
     }
 
     @GetMapping("eat")
     public String eat(){
-        return "eat something";
+        return "eat food";
     }
 
     @GetMapping("play")
