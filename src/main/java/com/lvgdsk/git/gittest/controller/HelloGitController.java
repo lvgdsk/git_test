@@ -8,16 +8,16 @@ public class HelloGitController {
 
     @GetMapping("hello")
     public String say(){
-        return "hello git,how useful you are!";
+        return "hello master";
     }
 
     @GetMapping("eat")
     public String eat(){
-        return "eat water aaa";
+        return "eat master";
     }
 
     @GetMapping("play")
     public String play(){
-        return "i am play badminton bbb";
+        return "i master";
     }
 }
