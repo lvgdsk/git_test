@@ -8,7 +8,7 @@ public class HelloGitController {
 
     @GetMapping("hello")
     public String say(){
-        return "hello git,how useful you are!";
+        return "hello uat!";
     }
 
     @GetMapping("devTest")
@@ -19,5 +19,10 @@ public class HelloGitController {
     @GetMapping("sitTest")
     public String sitTest(){
         return "sit test";
+    }
+
+    @GetMapping("uatTest")
+    public String uatTest(){
+        return "uat test";
     }
 }
