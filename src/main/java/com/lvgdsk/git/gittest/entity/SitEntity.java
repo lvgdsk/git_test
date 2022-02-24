@@ -8,6 +8,6 @@ import lombok.Data;
  * @since 2022/2/24 9:31
  */
 @Data
-public class DevEntity {
+public class SitEntity {
     private String fiels1;
 }
