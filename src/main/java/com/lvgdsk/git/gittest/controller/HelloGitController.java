@@ -20,4 +20,9 @@ public class HelloGitController {
     public String devTest(){
         return "dev test";
     }
+
+    @GetMapping("runTest")
+    public String runTest(){
+        return "run test";
+    }
 }
