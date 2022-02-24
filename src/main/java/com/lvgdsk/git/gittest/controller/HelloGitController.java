@@ -18,6 +18,6 @@ public class HelloGitController {
 
     @GetMapping("sitTest")
     public String sitTest(){
-        return "sit test";
+        return "test sit";
     }
 }
